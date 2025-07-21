@@ -1,0 +1,6 @@
+<div class="carousel-area">
+  <div *ngFor="let project of projectItems(); trackBy: trackById">
+    <h2>{{ project.title }}</h2>
+    <iframe class="project-card" [src]="safeUrl(project.url)" frameborder="1"></iframe>
+  </div>
+</div>
