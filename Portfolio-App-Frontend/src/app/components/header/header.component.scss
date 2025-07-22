@@ -1,20 +1,25 @@
 .navbar {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
     background-color:azure;
     display: inline-block;
     width: 100%;
     height: 80px;
     padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0, 0.08); 
     box-sizing: border-box;
 
     a {
         text-decoration: 0;
     }
+    
+    .logo-wrapper {
+        display: block;
+    }
 
-    div {
-
+    .link-wrapper {
+        
     }
     
     ul {
@@ -22,11 +27,13 @@
         gap: 20px;
         padding: 8px;
         align-items: center;
+        align-content: center;
         list-style-type: none;
     }
-}
 
-.link-group {
-    display:inline-block;
-    right: 20px;
+    
+    .link-group {
+        display:inline-block;
+        right: 20px;
+    }
 }
